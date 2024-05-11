@@ -43,7 +43,7 @@ def ingest_contributors(repo_info: GitHubRepoInfo):
         "message": f"Successfully ingested {contributors_count} contributors into {owner}_{repo}.contributors",
         "contributors_count": contributors_count
     }
-
+#################### Part 2 #######################
 class ContributorInfo(BaseModel):
     username: str
     avatar_url: str
