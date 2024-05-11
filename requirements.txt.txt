@@ -1,0 +1,5 @@
+fastapi: FastAPI framework for building APIs.
+pymongo: MongoDB driver for Python.
+requests: HTTP library for making requests.
+uvicorn[standard]: ASGI server for running FastAPI applications.
+pydantic: Used for data validation and modeling with FastAPI.
